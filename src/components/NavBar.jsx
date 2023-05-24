@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { FaBars, FaTimes } from 'react-icons/fa'
+import React, { useState } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 function NavBar() {
 
@@ -52,4 +52,4 @@ function NavBar() {
     )
 }
 
-export default NavBar
+export default NavBar;
