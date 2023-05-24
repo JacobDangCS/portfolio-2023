@@ -26,13 +26,13 @@ const SocialLinks = () => {
             id: 4,
             child: (<> Resume <BsFillPersonLinesFill size={30} /> </>),
             href: '/JD_Resume.pdf',
-            style: 'rounded-tr-md',
+            style: 'rounded-br-md',
             download: true
         },
     ]
 
     return (
-        <div className="hidden lg:flex-col top-[35%] left-0 fixed">
+        <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
             <ul>
                 {links.map(({ id, child, href, style, download }) => (
                     // eslint-disable-next-line
