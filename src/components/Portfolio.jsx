@@ -4,6 +4,7 @@ import mobile from '../assets/portfolio/mobile.png';
 import bugtrack from '../assets/portfolio/bugtrack.png';
 import qrgenerator from '../assets/portfolio/qr-generator.png';
 import budgettracker from '../assets/portfolio/budgettracker.png';
+import slotmachine from '../assets/portfolio/slotmachine.png';
 
 const Portfolio = () => {
 
@@ -24,10 +25,10 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: bugtrack,
-      alt: 'bug-tracker',
-      code: 'https://github.com/chjkt-bug-tracker/bug-tracker-frontend',
-      demo: 'https://www.youtube.com/watch?v=OV23NNmTaMM',
+      src: slotmachine,
+      alt: 'slot-machine',
+      code: 'https://github.com/JacobDangCS/slot-machine-js',
+      demo: 'https://jacobdangcs.github.io/slot-machine-js/',
     },
     {
       id: 4,
@@ -43,6 +44,13 @@ const Portfolio = () => {
       code: 'https://github.com/JacobDangCS/budget-tracker-frontend',
       demo: 'https://jd-budget-tracker-frontend.onrender.com/',
     },
+    {
+      id: 6,
+      src: bugtrack,
+      alt: 'bug-tracker',
+      code: 'https://github.com/chjkt-bug-tracker/bug-tracker-frontend',
+      demo: 'https://www.youtube.com/watch?v=OV23NNmTaMM',
+    }
   ]
 
   return (
@@ -57,7 +65,6 @@ const Portfolio = () => {
 
           {
             portfolios.map(({ id, src, alt, demo, code }) => (
-
               <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                 <img src={src} alt={alt} className="rounded-md duration-200 hover:scale-105" />
                 <div className="flex items-center justify-center">
@@ -65,11 +72,9 @@ const Portfolio = () => {
                   <a href={code} className="w1/2 px-6 py-3 m-4 duration-200 hover:scale-105" target='_blank' rel="noreferrer">Code</a>
                 </div>
               </div>
-
             ))}
         </div>
       </div>
-
     </div>
   )
 }
