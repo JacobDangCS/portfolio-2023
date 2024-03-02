@@ -5,9 +5,9 @@ import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-import aws from  "../assets/aws.png";
+import python from  "../assets/python.png";
 import mongodb from "../assets/mongodb.png";
-import postgres from "../assets/postgres.png";
+import aws from "../assets/aws.png";
 import vscode from "../assets/vscode.png";
 import socketio from "../assets/socketio.png";
 import node from '../assets/node.png';
@@ -17,39 +17,45 @@ const Experience = () => {
     const techs = [
         {
             id: 1,
-            src: html,
-            title: "HTML",
-            style: "shadow-orange-500",
-        },
-        {
-            id: 2,
-            src: css,
-            title: "CSS",
-            style: "shadow-blue-500",
-        },
-        {
-            id: 3,
             src: javascript,
             title: "JavaScript",
             style: "shadow-yellow-500",
         },
         {
+            id: 2,
+            src: python,
+            title: "Python",
+            style: "shadow-yellow-400"
+        },
+        {
+            id: 3,
+            src: css,
+            title: "CSS",
+            style: "shadow-blue-500",
+        },
+        {
             id: 4,
+            src: html,
+            title: "HTML",
+            style: "shadow-orange-500",
+        },
+        {
+            id: 5,
             src: reactImage,
             title: "React",
             style: "shadow-blue-600",
         },
         {
-            id: 5,
+            id: 6,
             src: tailwind,
             title: "Tailwind",
             style: "shadow-sky-400",
         },
         {
-            id: 6,
-            src: node,
-            title: "Node.js",
-            style:"shadow-lime-400"
+            id: 7,
+            src: mongodb,
+            title: "MongoDB",
+            style: "shadow-green-400"
         },
         {
             id: 7,
@@ -59,34 +65,28 @@ const Experience = () => {
         },
         {
             id: 8,
-            src: aws,
-            title: "AWS Lambda",
-            style: "shadow-orange-400"
+            src: node,
+            title: "Node.js",
+            style:"shadow-lime-400"
         },
         {
             id: 9,
-            src: mongodb,
-            title: "MongoDB",
-            style: "shadow-green-400"
-        },
-        {
-            id: 10,
-            src: postgres,
-            title: "PostGres",
-            style: "shadow-blue-400"
-        },
-        {
-            id: 11,
             src: vscode,
             title: "VSCode",
             style: "shadow-blue-400"
         },
         {
-            id: 12,
+            id: 10,
             src: socketio,
             title: "Socket.IO",
             style: "shadow-white"
         },
+        {
+            id: 11,
+            src: aws,
+            title: "AWS Lamba",
+            style: "shadow-orange-400"
+        }
     ];
 
     return (
