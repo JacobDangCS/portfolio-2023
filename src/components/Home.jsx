@@ -9,15 +9,10 @@ const Home = () => {
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
                 <div className="flex flex-col justify-center h-full">
                     <h2 className="text-4xl sm:text-7xl font-bold text-white">
-                        I am a Full Stack Developer
+                        I am a Software Developer
                     </h2>
                     <p className="text-gray-500 py-4 max-w-md">
-                        I have over a years worth of experience.
-                        I value companies that reward cooperative and dedicated employees and an environment that invites creativity, flexibility, and constructive feedback.
-                        Throughout my educational history and work experience, I've been told I'm punctual, devoted, cooperative and collaborative.
-                        I always keep in touch with past co-workers, employers, and schoolmates.
-                        I'm proficient in JavaScript, with foundation in the MERN Stack.
-                        Hope you enjoy my portfolio!
+                        My name is Jacob Dang, and I'm always seeking to learn as a developer by gaining experiences and collaborating with like-minded individuals striving to produce quality and honest work.
                     </p>
                     <div>
                         <Link to="portfolio" smooth duration={500}

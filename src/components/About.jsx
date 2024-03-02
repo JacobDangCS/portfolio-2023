@@ -9,15 +9,11 @@ const About = () => {
         </div>
         <div>
           <p className="text-xl">
-            As a full-stack developer, I pour my heart and soul into creating comprehensive and user-friendly software applications. The joy I feel when seeing my work come to life is unmatched. It's not just a job for me; it's a deep-rooted passion that drives me to deliver nothing but the best.
-
-            Collaboration and cooperation are the cornerstones of my belief in successful software projects. I firmly believe that when developers, designers, and stakeholders come together, magic happens. Each team member's unique perspective and expertise contribute to building something extraordinary.
-
-            In the ever-evolving field of software development, I am constantly hungry for knowledge and eager to learn. I actively seek out innovative ideas and creative outlets, always striving to find unique solutions to complex problems. Being part of a diverse community fuels my growth, as I understand the immense value that different perspectives and experiences bring to the table.
-
-            I have a deep-rooted commitment to delivering exceptional quality in every aspect of my work. Details matter to me, and I'm constantly pushing myself to achieve excellence. I firmly believe that by maintaining a growth mindset and focusing on quality, I can continuously improve and provide better results for my team and clients.
-
-            My approach to full-stack development is characterized by my unwavering dedication to team synergy, adaptable workflows, and a relentless pursuit of meritable quality. I'm excited to embark on this journey, exploring new frontiers and pushing boundaries in this thrilling and diverse field.
+            Currently my title is an Application Developer and Engineering Support contracted by Amazon Mechatronics R&D Department. With my experience at Amazon, I've become associated with
+            various exciting technologies and projects. Working with software such as LabVIEW and CodeSYS has broaden my scope of tools I wasn't previously familiar with. At the lab, we utilize
+            CSV files to collect data. At the scale Amazon currently tests at, parsing through various CSV data structures becomes challenging when it comes to the requirments the Mechatronics engineers need to work with, which is the niche I
+            fill as an Application Developer. Utilizing Python, Javascript as well as frame works like OpenCV, Microsoft Excel, and Flask allow me to manage, designate, and integrate systems into the flow of research and development at Amazon. I'm a passionate learner and
+            am always seeking to innovate myself and be adaptable as a resource for my team. I always strive for improving the user experience and productivity of my work.
           </p>
           <br />
         </div>
